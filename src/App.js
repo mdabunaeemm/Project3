@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./css/index.css"
+import Header from "./components/header";
+import Showroom from "./components/showroom";
+import About from "./components/about";
+import ContPortfolio from "./components/contPortfolio";
+import Blog from "./components/blog";
+import SkillCont from "./components/skillsCont";
+import Footer from "./components/footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello I am Naeem. Netlify is a good way
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <Header/>
+        <Showroom/>
+        <About/>
+        <SkillCont/>
+        <ContPortfolio/>
+        <Blog/>
+        <Footer/>
     </div>
   );
 }

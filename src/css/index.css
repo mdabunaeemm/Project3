@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    
+}
+body{
+    background-image: linear-gradient(#956AE1,#B28AF8, #956AE1);
+    background-size: cover;
+}
